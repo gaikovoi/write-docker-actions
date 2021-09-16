@@ -4,7 +4,7 @@ import sys
 
 # Make an HTTP GET request to the cat-fact API
 # cat_url = "https://cat-fact.herokuapp.com/facts"
-cat_url = "https://catfact.ninja/facts?limit=100"
+cat_url = "https://the-cat-fact.herokuapp.com/api/facts"
 r = requests.get(cat_url)
 r_obj_list = r.json()
 
